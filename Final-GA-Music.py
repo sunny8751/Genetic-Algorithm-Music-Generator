@@ -99,7 +99,7 @@ def setup(startDatabase, endDatabase, maxElement):
     for i in range (0, maxElement * maxElement):
         database.append([])
     #open the database file
-    data = xlrd.open_workbook("Complex Final database.xlsx").sheet_by_index(0)
+    data = xlrd.open_workbook("Music database.xlsx").sheet_by_index(0)
     createDatabase (startDatabase, endDatabase, maxElement)
     #DEBUG ONLY
     temp(maxElement)
